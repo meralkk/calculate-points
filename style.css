@@ -1,0 +1,55 @@
+body {
+  margin: 10px;
+  background-color: #f6f6f6;
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  margin: 100px auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.container .table-striped {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fa-square-check:hover,
+.fa-square-xmark:hover,
+.fa-trash:hover,
+.fa-pen-to-square:hover {
+  color: #0d6efd;
+}
+
+.foot {
+  background-color: #eef3fb;
+}
+
+.text-area {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.table {
+  width: 75%;
+}
+
+.table-secondary {
+  background-color: black;
+}
